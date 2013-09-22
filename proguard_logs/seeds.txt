@@ -1,0 +1,6 @@
+nu.pich.android.meetingcostcalculator.MeetingCostCalculatorActivity
+nu.pich.android.meetingcostcalculator.MeetingCostCalculatorActivity: MeetingCostCalculatorActivity()
+nu.pich.android.meetingcostcalculator.R$drawable: int ic_launcher
+nu.pich.android.meetingcostcalculator.R$id: int webView
+nu.pich.android.meetingcostcalculator.R$layout: int main
+nu.pich.android.meetingcostcalculator.R$string: int app_name

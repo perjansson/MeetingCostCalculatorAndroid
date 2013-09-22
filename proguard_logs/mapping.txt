@@ -1,0 +1,3 @@
+nu.pich.android.meetingcostcalculator.MeetingCostCalculatorActivity -> nu.pich.android.meetingcostcalculator.MeetingCostCalculatorActivity:
+    void onCreate(android.os.Bundle) -> onCreate
+    void showMeetingCostCalculator() -> a

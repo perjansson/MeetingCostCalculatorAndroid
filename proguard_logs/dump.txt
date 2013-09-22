@@ -1,0 +1,135 @@
+_____________________________________________________________________
++ Program class: nu/pich/android/meetingcostcalculator/MeetingCostCalculatorActivity
+  Superclass:    android/app/Activity
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class nu.pich.android.meetingcostcalculator.MeetingCostCalculatorActivity extends android.app.Activity
+
+Interfaces (count = 0):
+
+Constant Pool (count = 52):
+  + Integer [2130903040]
+  + Integer [2131034112]
+  + String [file:///android_asset/www/index.html]
+  + Class [android/app/Activity]
+  + Class [android/webkit/WebChromeClient]
+  + Class [android/webkit/WebSettings]
+  + Class [android/webkit/WebView]
+  + Class [nu/pich/android/meetingcostcalculator/MeetingCostCalculatorActivity]
+  + Methodref [android/app/Activity.<init> ()V]
+  + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+  + Methodref [android/webkit/WebChromeClient.<init> ()V]
+  + Methodref [android/webkit/WebSettings.setJavaScriptEnabled (Z)V]
+  + Methodref [android/webkit/WebView.getSettings ()Landroid/webkit/WebSettings;]
+  + Methodref [android/webkit/WebView.loadUrl (Ljava/lang/String;)V]
+  + Methodref [android/webkit/WebView.setWebChromeClient (Landroid/webkit/WebChromeClient;)V]
+  + Methodref [nu/pich/android/meetingcostcalculator/MeetingCostCalculatorActivity.a ()V]
+  + Methodref [nu/pich/android/meetingcostcalculator/MeetingCostCalculatorActivity.findViewById (I)Landroid/view/View;]
+  + Methodref [nu/pich/android/meetingcostcalculator/MeetingCostCalculatorActivity.setContentView (I)V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a ()V]
+  + NameAndType [findViewById (I)Landroid/view/View;]
+  + NameAndType [getSettings ()Landroid/webkit/WebSettings;]
+  + NameAndType [loadUrl (Ljava/lang/String;)V]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [setContentView (I)V]
+  + NameAndType [setJavaScriptEnabled (Z)V]
+  + NameAndType [setWebChromeClient (Landroid/webkit/WebChromeClient;)V]
+  + Utf8 [()Landroid/webkit/WebSettings;]
+  + Utf8 [()V]
+  + Utf8 [(I)Landroid/view/View;]
+  + Utf8 [(I)V]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [(Landroid/webkit/WebChromeClient;)V]
+  + Utf8 [(Ljava/lang/String;)V]
+  + Utf8 [(Z)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [a]
+  + Utf8 [android/app/Activity]
+  + Utf8 [android/webkit/WebChromeClient]
+  + Utf8 [android/webkit/WebSettings]
+  + Utf8 [android/webkit/WebView]
+  + Utf8 [file:///android_asset/www/index.html]
+  + Utf8 [findViewById]
+  + Utf8 [getSettings]
+  + Utf8 [loadUrl]
+  + Utf8 [nu/pich/android/meetingcostcalculator/MeetingCostCalculatorActivity]
+  + Utf8 [onCreate]
+  + Utf8 [setContentView]
+  + Utf8 [setJavaScriptEnabled]
+  + Utf8 [setWebChromeClient]
+
+Fields (count = 0):
+
+Methods (count = 3):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public MeetingCostCalculatorActivity()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #9
+        + Methodref [android/app/Activity.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x1
+      = public void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 16, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #10
+        + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+      [5] aload_0 v0
+      [6] ldc #1
+        + Integer [2130903040]
+      [8] invokevirtual #18
+        + Methodref [nu/pich/android/meetingcostcalculator/MeetingCostCalculatorActivity.setContentView (I)V]
+      [11] aload_0 v0
+      [12] invokespecial #16
+        + Methodref [nu/pich/android/meetingcostcalculator/MeetingCostCalculatorActivity.a ()V]
+      [15] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a()V
+    Access flags: 0x2
+      = private void a()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 36, locals = 2, stack = 3):
+      [0] aload_0 v0
+      [1] ldc #2
+        + Integer [2131034112]
+      [3] invokevirtual #17
+        + Methodref [nu/pich/android/meetingcostcalculator/MeetingCostCalculatorActivity.findViewById (I)Landroid/view/View;]
+      [6] checkcast #7
+        + Class [android/webkit/WebView]
+      [9] astore_1 v1
+      [10] aload_1 v1
+      [11] invokevirtual #13
+        + Methodref [android/webkit/WebView.getSettings ()Landroid/webkit/WebSettings;]
+      [14] iconst_1
+      [15] invokevirtual #12
+        + Methodref [android/webkit/WebSettings.setJavaScriptEnabled (Z)V]
+      [18] aload_1 v1
+      [19] new #5
+        + Class [android/webkit/WebChromeClient]
+      [22] dup
+      [23] invokespecial #11
+        + Methodref [android/webkit/WebChromeClient.<init> ()V]
+      [26] invokevirtual #15
+        + Methodref [android/webkit/WebView.setWebChromeClient (Landroid/webkit/WebChromeClient;)V]
+      [29] aload_1 v1
+      [30] ldc #3
+        + String [file:///android_asset/www/index.html]
+      [32] invokevirtual #14
+        + Methodref [android/webkit/WebView.loadUrl (Ljava/lang/String;)V]
+      [35] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+

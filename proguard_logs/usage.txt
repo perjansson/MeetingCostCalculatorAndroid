@@ -1,0 +1,7 @@
+nu.pich.android.meetingcostcalculator.BuildConfig
+nu.pich.android.meetingcostcalculator.R
+nu.pich.android.meetingcostcalculator.R$attr
+nu.pich.android.meetingcostcalculator.R$drawable
+nu.pich.android.meetingcostcalculator.R$id
+nu.pich.android.meetingcostcalculator.R$layout
+nu.pich.android.meetingcostcalculator.R$string
